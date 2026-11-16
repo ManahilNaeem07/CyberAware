@@ -1,0 +1,288 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F8FF;
+    color: #10264A;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #E5EDFA;
+}
+
+.navbar {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #10264A;
+}
+
+.logo span {
+    color: #0066FF;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #52647D;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #0066FF;
+}
+
+.nav-links a.active {
+    color: #0066FF;
+}
+
+
+.hero {
+    padding: 100px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    width: 60%;
+}
+
+.eyebrow {
+    color: #0066FF;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    color: #10264A;
+}
+
+.hero h1 span {
+    color: #0066FF;
+}
+
+.hero-description {
+    color: #52647D;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+.hero-visual {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shield-circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #E1EDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shield-icon {
+    width: 125px;
+    height: 145px;
+    background-color: #0066FF;
+    color: white;
+
+    clip-path: polygon(
+        50% 0%,
+        95% 18%,
+        88% 70%,
+        50% 100%,
+        12% 70%,
+        5% 18%
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.visual-caption {
+    color: #52647D;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+.intro {
+    background-color: white;
+    text-align: center;
+    padding: 75px 60px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.intro h2 span {
+    color: #0066FF;
+}
+
+.intro > p:last-child {
+    width: 750px;
+    margin: auto;
+    color: #52647D;
+}
+
+
+
+.features {
+    padding: 80px 60px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-heading h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.section-heading > p:last-child {
+    color: #52647D;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #E5EDFA;
+    border-radius: 12px;
+}
+
+.feature-card:hover {
+    border-color: #0066FF;
+}
+
+.feature-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #E8F1FF;
+    color: #0066FF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #52647D;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.feature-card a {
+    color: #0066FF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.feature-card a:hover {
+    text-decoration: underline;
+}
+
+
+
+.cta {
+    background-color: #E8F1FF;
+    text-align: center;
+    padding: 65px 25px;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.cta p {
+    color: #52647D;
+}
+
+
+
+footer {
+    background-color: white;
+    border-top: 1px solid #E5EDFA;
+    padding: 30px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    color: #52647D;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #E5EDFA;
+    margin-top: 25px;
+    padding-top: 20px;
+    text-align: center;
+    color: #52647D;
+    font-size: 12px;
+}

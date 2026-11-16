@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scam Spotter | CyberShield</title>
+
+    <link rel="stylesheet" href="scam-spotter.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Cyber<span>Aware</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning.html">Learning Hub</a></li>
+                <li><a href="quiz.html">Phishing Quiz</a></li>
+                <li><a href="scam-spotter.html" class="active">Scam Spotter</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <p class="section-label">TEST YOUR CYBER AWARENESS</p>
+
+        <h1>Can You Spot the Scam?</h1>
+
+        <p>
+            Not every email is what it seems.
+            Examine each email and decide whether it is suspicious.
+        </p>
+
+    </section>
+
+
+    <section class="quiz-section">
+
+        <div class="quiz-container">
+
+            <div class="quiz-top">
+
+                <p id="questionNumber">Email 1 of 10</p>
+
+                <p id="score">Score: 0</p>
+
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+
+            <h2>Examine This Email</h2>
+
+            <div class="email-card">
+
+                <div class="email-heading">
+
+                    <h3>INBOX</h3>
+
+                    <span>✉</span>
+
+                </div>
+
+                <div class="email-details">
+
+                    <p><strong>From:</strong> <span id="sender"></span></p>
+
+                    <p><strong>Subject:</strong> <span id="subject"></span></p>
+
+                    <p><strong>Date:</strong> <span id="date"></span></p>
+
+                </div>
+
+                <div class="email-body" id="emailBody"></div>
+
+            </div>
+
+            <div id="answerSection">
+
+                <h3>Is this email suspicious?</h3>
+
+                <div class="answer-buttons">
+
+                    <button id="yesButton">Yes, Suspicious</button>
+
+                    <button id="noButton">No, Not Suspicious</button>
+
+                </div>
+
+            </div>
+
+            <div id="feedback" class="feedback">
+
+                <h3 id="feedbackTitle"></h3>
+
+                <p id="feedbackDescription"></p>
+
+                <h4>Why?</h4>
+
+                <ul id="reasonList"></ul>
+
+                <button id="nextButton">Next Email</button>
+
+            </div>
+
+            <div id="finalResult" class="final-result">
+
+                <h2>Quiz Completed!</h2>
+
+                <p id="finalScore"></p>
+
+                <p id="finalMessage"></p>
+
+                <button id="restartButton">Try Again</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <a href="index.html" class="logo">
+                Cyber<span>Aware</span>
+            </a>
+
+            <p>Building awareness for a safer digital world.</p>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 CyberAware. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="scam-spotter.js"></script>
+
+</body>
+
+</html>
